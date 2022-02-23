@@ -6,3 +6,6 @@ PSP template'as
 
 ## Dependancies
 `texlive` ir `pandoc` 
+
+## Kiti option'ai
+https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/
