@@ -4,6 +4,10 @@ PSP template'as
 ## Norint gražaus PDF
 `pandoc PSP.md -f markdown -t pdf -s -o PSP.pdf -V geometry:"margin=2cm"`
 
+arba
+
+<https://cloudconvert.com/md-to-pdf>
+
 ## Dependancies
 `texlive` ir `pandoc` 
 
