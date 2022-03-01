@@ -1,15 +1,19 @@
-# PSP-template
-PSP template'as
+# PSP template
+This is a PSP template, see `PSP.md`
 
-## Norint gražaus PDF
-`pandoc PSP.md -f markdown -t pdf -s -o PSP.pdf -V geometry:"margin=2cm"`
+## Document generation
+### PDF
+`pandoc PSP.md -f markdown -t pdf -s -o PSP.pdf -V geometry:"margin=1.5cm" --columns 100 --wrap=auto"`
 
-arba
+or
 
 <https://cloudconvert.com/md-to-pdf>
+
+### HTML
+`pandoc 'PSP.md' -f markdown -t html -s -o PSP.html`
 
 ## Dependancies
 `texlive` ir `pandoc` 
 
-## Kiti option'ai
+## Other options
 https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/
