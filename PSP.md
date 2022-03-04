@@ -1,5 +1,8 @@
 ---
+Title: PSP
 Author: Vardenis Pavardenis
+papersize:
+  -a4
 ---
 
 # Užduotis
